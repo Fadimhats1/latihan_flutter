@@ -1,2 +1,2 @@
 # latihan_flutter
-Latihan dasar flutter
+Latihan - latihan dasar flutter
