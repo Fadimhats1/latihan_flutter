@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(new MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -20,7 +20,19 @@ class MyApp extends StatelessWidget {
         ),
         body: SafeArea(
             child: Center(
-          child: Text("Hello World"),
+          child: Container(
+              color: Colors.lightBlue,
+              width: 150,
+              height: 100,
+              child: Text(
+                "Saya sedang melatih kemampuan flutter saya.",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    color: Colors.white,
+                    fontStyle: FontStyle.italic,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20),
+              )),
         )),
       ),
     );
