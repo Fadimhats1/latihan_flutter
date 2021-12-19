@@ -13,7 +13,9 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   int counter = 0;
+
   List<Color> color = [Colors.blue, Colors.red, Colors.amber, Colors.green];
+
   void tekanTombol() {
     setState(() {
       counter++;
