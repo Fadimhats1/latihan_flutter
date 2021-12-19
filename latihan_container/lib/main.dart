@@ -22,9 +22,13 @@ class MyApp extends StatelessWidget {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               gradient: LinearGradient(
-                  colors: [Colors.amber, Colors.blue],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight),
+                colors: [
+                  Colors.amber,
+                  Colors.blue,
+                ],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              ),
             ),
           ),
         ),
