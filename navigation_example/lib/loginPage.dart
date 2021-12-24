@@ -16,10 +16,14 @@ class _LoginPageState extends State<LoginPage> {
         child: ElevatedButton(
           child: Text("LOGIN"),
           onPressed: () {
-            Navigator.pushReplacement(context,
-                MaterialPageRoute(builder: (context) {
-              return MainPage();
-            }));
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                builder: (context) {
+                  return MainPage();
+                },
+              ),
+            );
           },
         ),
       ),
