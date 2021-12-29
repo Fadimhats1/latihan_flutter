@@ -56,6 +56,9 @@ class MainPage extends StatelessWidget {
         height: 100,
         width: 100,
       ),
+      Container(
+        child: Text("UJANG"),
+      ),
     ];
   }
 }
